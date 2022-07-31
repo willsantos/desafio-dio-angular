@@ -1,0 +1,7 @@
+<div fxLayout="row wrap" fxLayoutAlign="space-around center" fxLayoutGap="5" fxLayoutGap.xl="10" fxLayoutGap.md="5"
+  fxLayoutGap.sm="10" fxLayout.sm="col wrap">
+  <div *ngFor="let book of books">
+    <app-product-item [book]="book"></app-product-item>
+  </div>
+
+</div>

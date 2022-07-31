@@ -1,0 +1,34 @@
+.example-card {
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+
+.example-header-image {
+  background-size: cover;
+}
+img {
+  max-width: 250px;
+}
+
+.price
+{
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  color: #c20411;
+}
+
+.inventory{
+  font-style: italic;
+  text-align: right;
+  color: #c20411;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
